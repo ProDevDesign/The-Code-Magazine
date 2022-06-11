@@ -26,7 +26,9 @@
 
         <img src="img/author.png" alt="Author - icon" width="50" height="50" />
 
-        <p>Posted by <strong>Kacper</strong> on Saturday, June 4th 2022</p>
+        <p id="author">
+          Posted by <strong>Kacper</strong> on Saturday, June 4th 2022
+        </p>
 
         <img
           src="img/post-img.jpg"
@@ -100,7 +102,7 @@
     <aside>
       <h4>Related posts</h4>
 
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="img/related-1.jpg"
@@ -109,7 +111,7 @@
             height="75px"
           />
           <a href="#">How to Learn Web Development</a>
-          <p>By Kacper</p>
+          <p class="related-author">By Kacper</p>
         </li>
         <li>
           <img
@@ -119,7 +121,7 @@
             height="75px"
           />
           <a href="#">The Unknown Powers of CSS</a>
-          <p>By Kacper</p>
+          <p class="related-author">By Kacper</p>
         </li>
         <li>
           <img
@@ -129,11 +131,13 @@
             height="75px"
           />
           <a href="#">Why JavaScript is Awesome</a>
-          <p>By Kacper</p>
+          <p class="related-author">By Kacper</p>
         </li>
       </ul>
     </aside>
 
-    <footer>Copyright 2022 &copy; by The Code Magazine.</footer>
+    <footer>
+      <p id="copyright">Copyright 2022 &copy; by The Code Magazine.</p>
+    </footer>
   </body>
 </html>
