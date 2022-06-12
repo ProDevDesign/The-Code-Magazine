@@ -81,3 +81,19 @@ aside {
   border-bottom: 5px solid #1098ad;
   /* dotted, dashed or solid*/
 }
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* li:nth-child(odd) {
+  color: red;
+}
+
+li:nth-child(even) {
+  color: red;
+} */
