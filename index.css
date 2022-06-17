@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /* PAGE SECTIONS */
 body {
@@ -44,12 +45,10 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   /* dotted, dashed or solid*/
-  padding: 50px 0;
+  padding: 50px 40px;
 
   /* padding-top: 50px;
   padding-bottom: 50px; */
-
-  width: 500px;
 }
 
 /* SMALLER SECTIONS */
@@ -80,6 +79,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
@@ -131,6 +131,7 @@ li:last-child {
 
 .related {
   list-style: none;
+  margin-left: 0;
 }
 
 li:first-child {
