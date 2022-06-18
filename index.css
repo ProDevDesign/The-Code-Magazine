@@ -187,7 +187,6 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
   display: inline-block;
 }
 
@@ -232,50 +231,43 @@ h2::before {
   right: -25px;
 }
 
-/* FLOATS */
+/* FLEXBOX */
 
-.author-img {
-  float: left;
-  margin-bottom: 20px;
+.main-header {
+  display: flex;
+  align-items: center; /* Vertical */
+  justify-content: space-between; /* Horizontal */
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 .author {
-  /* padding-left: 10px; */
-  float: left;
-  margin-top: 10px;
-  margin-left: 20px;
+  margin-bottom: 0;
+  margin-left: 15px;
 }
 
-h1 {
-  float: left;
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
 }
 
-nav {
-  float: right;
-}
-
-/* .clear {
-  clear: both;
-} */
-
-.clear-fix::after {
-  clear: both;
-  content: "";
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 5px;
   display: block;
 }
 
-article {
-  width: 825px;
-  float: left;
-}
-
-aside {
-  width: 300px;
-  float: right;
-}
-
-footer {
-  clear: both;
-  content: "";
-  display: block;
+.related-author {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
 }
