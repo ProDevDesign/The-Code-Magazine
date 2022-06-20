@@ -2,54 +2,162 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="index.css" rel="stylesheet" />
-    <title>Discord Nitro</title>
+    <title>📘 The Code Magazine - The Basic Language of the Web - HTML</title>
   </head>
+
   <body>
-    <article class="product">
-      <h2 class="product-title">Discord Nitro</h2>
-      <!-- <div class="container"> -->
-      <img src="img/discord-nitro.png" class="product-img" alt="Discord Icon" />
+    <div class="container">
+      <!-- TITLE -->
+      <header class="main-header clear-fix">
+        <h1>📘The Code Magazine</h1>
 
-      <div class="product-info">
-        <div class="product-price">
-          <h3 class="price"><strong>$9.99</strong></h3>
-        </div>
+        <!--NAVBAR-->
+        <nav>
+          <a href="blog.html">Blog</a>
+          <a href="#">Challenges</a>
+          <a href="flexbox.html">Flexbox</a>
+          <a href="css-grid.html">CSS Grid</a>
+        </nav>
+        <!-- <div class="clear"></div> -->
+      </header>
+      <!-- TOPIC -->
+      <!-- <div class="row"> -->
+      <article>
+        <header class="post-header">
+          <h2>The Basic Language of the Web - HTML</h2>
 
-        <p class="product-description">
-          Get an enhanced Discord experience for one low monthly cost. Upgrade
-          your emoji, enjoy bigger file uploads, stand out in your favorite
-          Discords, and more.
+          <div class="author-box">
+            <img
+              src="img/author.png"
+              class="author-img"
+              alt="Author - icon"
+              width="50"
+              height="50"
+            />
+
+            <p id="author" class="author">
+              Posted by <strong>Kacper</strong> on Saturday, June 4th 2022
+            </p>
+          </div>
+          <img
+            src="img/post-img.jpg"
+            alt="Post image - HTML code on a screen"
+            width="500"
+            height="200"
+            class="post-img"
+          />
+        </header>
+        <p>
+          All modern websites and web applications are built using three
+          <em>fundamental</em>
+          technologies: HTML, CSS and JavaScript. These are the languages of the
+          web.
         </p>
-        <a href="https://discord.com/nitro" class="more-info" target="_blank"
-          >More information &rarr;</a
-        >
-        <div class="product-colors">
-          <div class="color"></div>
-          <div class="color color-1"></div>
-          <div class="color color-2"></div>
-          <div class="color color-3"></div>
-          <div class="color color-4"></div>
-          <div class="color color-5"></div>
-          <div class="color color-6"></div>
-        </div>
-      </div>
+        <p>
+          In this post, let's focus on HTML. We will learn what HTML is all
+          about, and why you too should learn it.
+        </p>
 
-      <div class="product-details">
-        <h3 class="details-title">Product details</h3>
-        <ul class="details-list">
-          <li>Better Emoji</li>
-          <li>Personal Profile</li>
-          <li>Support a Server</li>
-          <li>Rep Your Support</li>
-          <li>Bigger Uploads</li>
-          <li>HD Video</li>
+        <!-- CONTENT -->
+        <h3>What is HTML?</h3>
+        <p>
+          HTML stands for <strong>H</strong>yper<strong>T</strong>ext
+          <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+          language that web developers use to structure and describe the content
+          of a webpage (not a programming language).
+        </p>
+        <p>
+          HTML consists of elements that describe different types of content:
+          paragraphs, links, headings, images, video, etc. Web browsers
+          understand HTML and render HTML code as websites.
+        </p>
+
+        <p>In HTML, each element is made up of 3 parts:</p>
+
+        <ol>
+          <li>The opening tag</li>
+          <li>The closing tag</li>
+          <li>The actual element</li>
+        </ol>
+
+        <p class="learn-more">
+          You can learn more at:
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            target="_blank"
+            >MDN Web Docs</a
+          >.
+        </p>
+
+        <h3>Why should you learn HTML?</h3>
+        <p>
+          There are countless reasons for learning the fundamental language of
+          the web. Here are 5 of them:
+        </p>
+
+        <ul>
+          <li>To be able to use the fundamental web dev language</li>
+          <li>
+            To hand-craft beautiful websites instead of relying on tools like
+            Worpress or Wix
+          </li>
+          <li>To build web applications</li>
+          <li>To impress friends</li>
+          <li>To have fun 😃</li>
         </ul>
-      </div>
+
+        <p>Hopefully you learned something new here. See you next time!</p>
+      </article>
+
+      <aside>
+        <h4>Related posts</h4>
+
+        <ul class="related">
+          <li class="related-post">
+            <img
+              src="img/related-1.jpg"
+              alt="Post 1"
+              width="75px"
+              height="75px"
+            />
+            <div>
+              <a href="#" class="related-link">How to Learn Web Development</a>
+              <p class="related-author">By Kacper</p>
+            </div>
+          </li>
+          <li class="related-post">
+            <img
+              src="img/related-2.jpg"
+              alt="Post 2"
+              width="75px"
+              height="75px"
+            />
+            <div>
+              <a href="#" class="related-link">The Unknown Powers of CSS</a>
+              <p class="related-author">By Kacper</p>
+            </div>
+          </li>
+          <li class="related-post">
+            <img
+              src="img/related-3.jpg"
+              alt="Post 3"
+              width="75px"
+              height="75px"
+            />
+            <div>
+              <a href="#" class="related-link">Why JavaScript is Awesome</a>
+              <p class="related-author">By Kacper</p>
+            </div>
+          </li>
+        </ul>
+        <button class="like-button">❤️ Like</button>
+      </aside>
       <!-- </div> -->
-      <button class="add-cart">Subscribe now!</button>
-    </article>
+
+      <footer>
+        <p id="copyright">Copyright 2022 &copy; by The Code Magazine.</p>
+      </footer>
+    </div>
   </body>
 </html>
