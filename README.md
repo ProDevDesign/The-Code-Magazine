@@ -1,2 +1,2 @@
-# Learning HTML Course - 1
-Project 1
+# The Code Magazine Project
+Project 1 - test website
